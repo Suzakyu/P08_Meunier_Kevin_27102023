@@ -1,0 +1,16 @@
+.style-footer{
+    background-color: black;
+    height: 210px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    color: white;
+    font-size: 18px;
+    @media (max-width: 1001px) {
+       font-size: 15px;
+    }
+}

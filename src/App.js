@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 
 //Pages
 import Home from './pages/home/home';
@@ -15,6 +15,7 @@ import Footer from './layout/Footer/footer';
 
 function App() {
   return (
+    <Router>
     <>
     <div>
     <Header/>
@@ -27,6 +28,7 @@ function App() {
     </div>
     <Footer/>
     </>
+    </Router>
   );
 };
 export default App;

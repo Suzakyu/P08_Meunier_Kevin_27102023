@@ -1,13 +1,22 @@
-import React from 'react';
-import './footer.css'; // Importez le fichier CSS
+// IMPORTS
+import { Link } from 'react-router-dom'
+import './footer.css'
+
+// ASSETS
+import LogoFooter from '../../assets/logo-footer.png'
+
+
 
 function Footer() {
-    return (
-        <footer className="">
-            <img src="logo.png" alt="Logo de votre site" className="logo" />
-           
-        </footer>
-    );
-}
+   return (
+      <footer className='style-footer'>
+         <Link to="/">
+            <img src={LogoFooter} alt='Logo de Kasa'/>
+         </Link>
 
-export default Footer;
+         <p className='footer-text'>© 2023 Kasa. All rights reserved</p>
+      </footer>
+   )
+ }
+ 
+ export default Footer;

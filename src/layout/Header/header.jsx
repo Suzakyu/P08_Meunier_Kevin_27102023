@@ -1,16 +1,26 @@
-import React from 'react';
-import './header.css'; // Importez le fichier CSS
+import { Link, NavLink } from 'react-router-dom';
+import './header.css';
+
+import Logo from '../../assets/logo.png';
+
 
 function Header() {
     return (
-        <header className="header">
-            <img src="./assets/logo.png" alt="Logo de votre site" className="logo" />
-            <nav className="nav">
-                <a href="accueil">Accueil</a>
-                <a href="a-propos">À propos</a>
-            </nav>
-        </header>
-    );
-}
+        <nav className="nav">
+            <Link to="/">
+                <img src={Logo} alt="Logo de votre site" className="logo" />
+            </Link>
+            <div>
+                <NavLink to="/" className='style-link'>
+                    Accueil
+                </NavLink>
 
-export default Header;
+                <NavLink to='/about' className='style-link'>
+                    À propos
+                </NavLink>
+            </div>
+        </nav>
+    );
+};
+
+export default Header
