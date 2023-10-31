@@ -35,7 +35,8 @@
 }
 .collapse-next{
     display: flex;
-   gap: 35px;
+    flex-direction: column;
+    gap: 35px;
    @media (max-width: 1001px) {
       display: block;
    }

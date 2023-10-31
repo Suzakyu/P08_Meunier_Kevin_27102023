@@ -1,0 +1,6 @@
+.stars{
+    @media (max-width: 1001px) {
+       width: 27px;
+       height: 27px;
+    }
+ }
