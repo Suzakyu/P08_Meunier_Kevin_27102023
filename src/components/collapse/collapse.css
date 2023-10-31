@@ -1,0 +1,42 @@
+.content-collapse{
+    font-size: 24px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 100%;
+}
+.tittle-content{
+    background-color: #FF6060;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.tittle-collapse{
+    font-weight: 500;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.text-collapse{
+    background-color: #F6F6F6;
+    font-weight: 300;
+    padding: 30px 20px;
+    margin: 0;
+    color: #FF6060;
+    font-size: 17px;
+}
+
+.text-collapse p {
+    padding: 0 0 5px 0;
+}
+.collapse-next{
+    display: flex;
+   gap: 35px;
+   @media (max-width: 1001px) {
+      display: block;
+   }
+}

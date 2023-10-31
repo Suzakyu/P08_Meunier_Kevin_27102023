@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {BrowserRouter as Router,Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 //Pages
 import Home from './pages/home/home';
@@ -16,18 +16,18 @@ import Footer from './layout/Footer/footer';
 function App() {
   return (
     <Router>
-    <>
-    <div>
-    <Header/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/logement" element={<Logement />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </div>
-    <Footer/>
-    </>
+      <>
+
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/logement" element={<Logement />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+
+        <Footer />
+      </>
     </Router>
   );
 };

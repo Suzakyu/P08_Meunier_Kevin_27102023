@@ -10,7 +10,7 @@
  
  .Title-Error {
     font-size: 288px;
-    font-weight: 900;
+    font-weight: 700;
     margin: 0;
     @media (max-width: 1001px) {
        font-size: 96px;
@@ -19,6 +19,7 @@
  
  .Text-Error {
     font-size: 36px;
+    font-weight: 500;
     margin: 0;
     @media (max-width: 1001px) {
        font-size: 22px;
