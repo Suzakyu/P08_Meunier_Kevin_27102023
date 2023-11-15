@@ -1,8 +1,8 @@
 .content-banner {
-    width: 95%;
+    width: 99%;
     height: 223px;
     object-fit: cover;
     border-radius: 30px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
  }

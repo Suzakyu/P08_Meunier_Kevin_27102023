@@ -1,9 +1,13 @@
+.collapse-home{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
 .content-collapse{
     font-size: 24px;
-    width: 80%;
-    margin: 40px auto;
+    margin: 40px 15px 0 15px;
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
 }
 .tittle-content{
     background-color: #FF6060;
@@ -36,8 +40,26 @@
 .collapse-next{
     display: flex;
     flex-direction: column;
-    gap: 35px;
-   @media (max-width: 1001px) {
-      display: block;
-   }
+    align-items: center;
+
 }
+@media (max-width: 1001px) {
+    .tittle-content{
+        width: 100%;
+    }
+    .text-collapse{
+        width: 100%;
+        font-size: 24px;
+    }
+    .collapse-next{
+      width: 100%; 
+  
+    }
+    .collapse-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+ }

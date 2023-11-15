@@ -7,7 +7,7 @@
 .arrowleft{
     position: absolute;
     cursor: pointer;
-    right: 2%;
+    left: 2%;
     @media (max-width: 1001px) {
        width: 7%;
     }
@@ -15,13 +15,15 @@
 .arrowright{
     position: absolute;
     cursor: pointer;
-    left: 2%;
+    right: 2%;
+
     @media (max-width: 1001px) {
        width: 7%;
     }
 
 }
 .img-carousel{
+   
     width: 100%;
     height: 415px;
     object-fit: cover;

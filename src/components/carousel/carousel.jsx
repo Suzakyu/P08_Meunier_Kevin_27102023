@@ -32,7 +32,7 @@ function Carousel({ images }) {
             
             {/* // Affiche les fleches de navigation, au click on passe a l'image suivante ou precedente */}
             <img className='arrowleft' src={arrowleft} alt="Flèche gauche" onClick={goToNextImage} />
-            <img className='arrowRight' src={arrowright} alt="Flèche droite" onClick={goToPreviousImage} /> 
+            <img className='arrowright' src={arrowright} alt="Flèche droite" onClick={goToPreviousImage} /> 
          </>
          }
          

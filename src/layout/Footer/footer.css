@@ -10,7 +10,9 @@
 .footer-text{
     color: white;
     font-size: 18px;
-    @media (max-width: 1001px) {
-       font-size: 15px;
+}
+@media (max-width: 1001px) {
+    .footer-text{
+        font-size: 15px;
     }
 }

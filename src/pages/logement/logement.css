@@ -1,14 +1,8 @@
 .content-info{
     color: #FF6060;
-    margin: 60px 0 30px 0;
- 
+    margin: 60px 15px 30px 15px;
     display: flex;
     justify-content: space-between;
- 
-    @media (max-width: 1001px) {
-       flex-direction: column;
-       margin: 30px 0;
-    }
  }
  
  
@@ -18,27 +12,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @media (max-width: 1001px) {
-       width: 100%;
-    }
+
  }
  
  .tittle-info{
     font-size: 36px;
     font-weight: 500;
     margin: 0;
-    @media (max-width: 1001px) {
-       font-size: 25px;
-    }
+
  }
  
  .text-info{
     margin: 0;
     font-size: 18px;
-    
-    @media (max-width: 1001px) {
-       font-size: 13px;
-    }
+
  }
  
  .tagUl{
@@ -54,11 +41,7 @@
     padding: 7px 20px;
     border-radius: 10px;
     margin: 0 20px 10px 0;
-    @media (max-width: 1001px) {
-       font-size: 12px;
-       padding: 4px 10px;
-       margin: 0 15px 10px 0;
-    }
+
  }
  
  
@@ -69,13 +52,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    @media (max-width: 1001px) {
-       margin: 20px 0 0 0;
-       width: 100%;
-       flex-direction: row-reverse;
-       justify-content: space-between;
-       align-items: center;
-    }
+
  }
  
  .img-owner{
@@ -83,29 +60,66 @@
     height: 90px;
     border-radius: 50%;
     margin: 0 0 0 30px;
-    @media (max-width: 1001px) {
-       width: 70px;
-       height: 70px;
-       border-radius: 50%;
-    }
  }
  
  .test-info-owner{
     margin: 0;
     width: 60px;
     font-size: 18px;
-    
-    @media (max-width: 1001px) {
-       width: 40px;
-       font-size: 13px;
- }
  }
  
  .test{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    @media (max-width: 1001px) {
-       margin-bottom: 0;
-    }
+    margin-bottom: 10px;  
  }
+
+ @media (max-width: 1001px) {
+   .content-info{ 
+         flex-direction: column;
+         margin: 30px 0;   
+   }
+   .content-info-logement{
+         width: 100%;
+   }
+   
+   .tittle-info{
+         font-size: 25px;
+   }
+   
+   .text-info{
+         font-size: 13px;
+   }
+   
+   .tagUl{
+      padding: 0;
+      margin: 25px 0 0;
+   }
+   
+   .tagLi{
+      
+         font-size: 12px;
+         padding: 4px 10px;
+         margin: 0 15px 10px 0;
+      
+   }
+   .content-info-owner{
+         margin: 20px 0 0 0;
+         width: 100%;
+         flex-direction: row-reverse;
+         justify-content: space-between;
+         align-items: center;  
+   }
+   .img-owner{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+   }
+   .test-info-owner{
+      width: 40px;
+       font-size: 13px;
+   }
+   .test{
+      margin-bottom: 0;
+   }
+}

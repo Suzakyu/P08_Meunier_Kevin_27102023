@@ -72,3 +72,29 @@
        bottom: 305px;
     }
  }
+ @media (max-width: 1001px) {
+
+
+
+   .cont-card {
+         align-items: center;
+         background-color: white;
+         padding: 35px 0;
+         margin: 0 0;
+   }
+   
+   .content {
+         width: 85vw;
+         height: 250px;
+      } 
+   .img-card {
+         width: 85vw;
+         height: 250px;
+      }   
+   .gradient-card {
+         bottom: 255px;
+      }
+   .title-card {
+         bottom: 305px;
+      }
+}
